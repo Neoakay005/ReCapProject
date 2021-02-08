@@ -12,7 +12,7 @@ namespace ConsoleUserInterface
 
             foreach (var item in carManager.GetAll())
             {
-                Console.WriteLine(item.BrandId);
+                Console.WriteLine("ID: {0}, Model Yılı:{1}",item.Id, item.ModelYear);
             }
         }
     }
